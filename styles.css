@@ -1,6 +1,6 @@
 .center-line {
   height: 1px;
-  width: 700px;
+  width: 1000px;
   background-color: white;
   z-index: 1;
   box-shadow: inset -35px -5px 0px 0px rgba(91, 202, 255, 0.05);
@@ -181,18 +181,20 @@
   box-shadow: 0px 2px 0px 1px #ffffff;
   transform: rotateX(70deg);
   animation: spinX 12.5s linear infinite forwards;
-  height: 170px;
-  width: 170px;
+  height: 240px;
+  width: 240px;
+  left: -24px;
+  top: -50px;
 }
 
 .orbit:last-of-type {
   box-shadow: 2px 0px 0px 1px #ffffff;
   transform: rotateY(70deg);
   animation: spinY 12.5s linear infinite alternate;
-  height: 200px;
-  width: 200px;
-  top: -20px;
-  left: -30px;
+  height: 300px;
+  width: 300px;
+  top: -80px;
+  left: -55px;
 }
 
 /*sample*/
@@ -200,15 +202,15 @@
   box-shadow: 0px 2px 0px 1px #ffffff;
   transform: rotateX(40deg);
   animation: spinX 5s linear infinite forwards;
-  height: 140px;
-  width: 140px;
+  height: 180px;
+  width: 180px;
   left: 6px;
-  top: 6px;
+  top: -22px;
 }
 
 /*sample*/
 
-.dot {
+/* .dot {
   display: block;
   position: absolute;
   top: calc(50% - 3px);
@@ -235,7 +237,7 @@
 
 .dot:nth-of-type(4) {
   animation: 5s -1.25s orbitd ease-in-out infinite;
-}
+} */
 
 @keyframes orbita {
   0% {
